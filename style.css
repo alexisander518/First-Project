@@ -1,0 +1,49 @@
+:root{
+    --soft-orange: hsl(35, 77%, 62%);
+    --soft-red: hsl(5, 85%, 63%);
+    --off-white: #fffdfa;
+    --grayish-blue: hsl(233, 8%, 79%);
+    --dark-grayish-blue:hsl(236, 13%, 42%);
+    --very-dark-blue: hsl(240, 100%, 5%);
+}
+
+nav{
+    background-color: black;  
+}
+
+p{
+    font-size: 20px;
+    background-color: gray;
+}
+
+ul{
+    list-style: none;
+}
+
+.nav-link{
+    color: pink;
+    text-decoration: none;
+}
+
+.product-card{
+    width: 300px;
+    height: 300px;
+}
+
+body p{
+    border: 2px solid red;
+}
+
+.product-info{
+    width: 300px;
+    height: 300px;
+}
+
+.nav-link:hover{
+    color: white;
+    background-color: blue;
+}
+
+.nav-link:active{
+    background-color: green;
+}
